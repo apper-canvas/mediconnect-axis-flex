@@ -172,7 +172,7 @@ const Dashboard = () => {
               />
             ) : (
               todayAppointments.map((appointment) => {
-                const patient = patients.find(p => p.Id === appointment.patientId);
+const patient = patients.find(p => p.Id === appointment.patientId);
                 return patient ? (
                   <AppointmentCard
                     key={appointment.Id}

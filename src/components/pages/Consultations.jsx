@@ -34,11 +34,10 @@ const Consultations = () => {
         PatientService.getAll()
       ]);
       
-      // Filter only consultations (appointments that are video calls)
+// Filter only consultations (appointments that are video calls)
       const consultationData = appointmentsData.filter(apt => 
         apt.type === 'consultation' || apt.videoRoomUrl
       );
-      
       setConsultations(consultationData);
       setPatients(patientsData);
       

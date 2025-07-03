@@ -36,10 +36,10 @@ const Patients = () => {
     }
   };
   
-  const filteredPatients = patients.filter(patient => {
+const filteredPatients = patients.filter(patient => {
     const matchesSearch = !searchTerm || 
-      patient.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      patient.insurance?.provider.toLowerCase().includes(searchTerm.toLowerCase());
+      patient.name?.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      patient.insurance?.provider?.toLowerCase().includes(searchTerm.toLowerCase());
     
     const matchesFilter = filterStatus === 'all' || 
       (filterStatus === 'verified' && patient.insurance?.verified) ||
