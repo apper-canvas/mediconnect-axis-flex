@@ -1,0 +1,102 @@
+[
+  {
+    "Id": 1,
+    "patientId": 1,
+    "medication": "Lisinopril",
+    "dosage": "10mg",
+    "instructions": "Take once daily with food",
+    "refills": 5,
+    "prescribedDate": "2024-02-20T00:00:00Z",
+    "status": "active"
+  },
+  {
+    "Id": 2,
+    "patientId": 1,
+    "medication": "Metformin",
+    "dosage": "500mg",
+    "instructions": "Take twice daily with meals",
+    "refills": 3,
+    "prescribedDate": "2024-01-15T00:00:00Z",
+    "status": "active"
+  },
+  {
+    "Id": 3,
+    "patientId": 2,
+    "medication": "Ibuprofen",
+    "dosage": "400mg",
+    "instructions": "Take as needed for pain, maximum 3 times daily",
+    "refills": 2,
+    "prescribedDate": "2024-01-10T00:00:00Z",
+    "status": "active"
+  },
+  {
+    "Id": 4,
+    "patientId": 3,
+    "medication": "Aspirin",
+    "dosage": "81mg",
+    "instructions": "Take once daily for cardioprotection",
+    "refills": 6,
+    "prescribedDate": "2024-02-01T00:00:00Z",
+    "status": "active"
+  },
+  {
+    "Id": 5,
+    "patientId": 4,
+    "medication": "Multivitamin",
+    "dosage": "1 tablet",
+    "instructions": "Take once daily with breakfast",
+    "refills": 4,
+    "prescribedDate": "2024-01-25T00:00:00Z",
+    "status": "active"
+  },
+  {
+    "Id": 6,
+    "patientId": 5,
+    "medication": "Atorvastatin",
+    "dosage": "20mg",
+    "instructions": "Take once daily at bedtime",
+    "refills": 5,
+    "prescribedDate": "2024-02-10T00:00:00Z",
+    "status": "active"
+  },
+  {
+    "Id": 7,
+    "patientId": 5,
+    "medication": "Metoprolol",
+    "dosage": "25mg",
+    "instructions": "Take twice daily",
+    "refills": 3,
+    "prescribedDate": "2024-02-10T00:00:00Z",
+    "status": "active"
+  },
+  {
+    "Id": 8,
+    "patientId": 2,
+    "medication": "Amoxicillin",
+    "dosage": "500mg",
+    "instructions": "Take three times daily for 10 days",
+    "refills": 0,
+    "prescribedDate": "2023-12-15T00:00:00Z",
+    "status": "expired"
+  },
+  {
+    "Id": 9,
+    "patientId": 3,
+    "medication": "Prednisone",
+    "dosage": "10mg",
+    "instructions": "Take once daily, taper as directed",
+    "refills": 1,
+    "prescribedDate": "2024-01-20T00:00:00Z",
+    "status": "pending"
+  },
+  {
+    "Id": 10,
+    "patientId": 6,
+    "medication": "Vitamin D3",
+    "dosage": "2000 IU",
+    "instructions": "Take once daily",
+    "refills": 6,
+    "prescribedDate": "2024-02-25T00:00:00Z",
+    "status": "active"
+  }
+]

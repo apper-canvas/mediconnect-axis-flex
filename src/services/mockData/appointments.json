@@ -1,0 +1,102 @@
+[
+  {
+    "Id": 1,
+    "patientId": 1,
+    "providerId": "dr-sarah-johnson",
+    "scheduledTime": "2024-03-15T10:00:00Z",
+    "duration": 30,
+    "type": "consultation",
+    "status": "scheduled",
+    "videoRoomUrl": "https://mediconnect.com/room/1"
+  },
+  {
+    "Id": 2,
+    "patientId": 1,
+    "providerId": "dr-sarah-johnson",
+    "scheduledTime": "2024-03-15T14:30:00Z",
+    "duration": 45,
+    "type": "follow-up",
+    "status": "scheduled",
+    "videoRoomUrl": "https://mediconnect.com/room/2"
+  },
+  {
+    "Id": 3,
+    "patientId": 2,
+    "providerId": "dr-sarah-johnson",
+    "scheduledTime": "2024-03-15T16:00:00Z",
+    "duration": 60,
+    "type": "consultation",
+    "status": "scheduled",
+    "videoRoomUrl": "https://mediconnect.com/room/3"
+  },
+  {
+    "Id": 4,
+    "patientId": 4,
+    "providerId": "dr-sarah-johnson",
+    "scheduledTime": "2024-03-16T09:00:00Z",
+    "duration": 30,
+    "type": "consultation",
+    "status": "scheduled",
+    "videoRoomUrl": "https://mediconnect.com/room/4"
+  },
+  {
+    "Id": 5,
+    "patientId": 6,
+    "providerId": "dr-sarah-johnson",
+    "scheduledTime": "2024-03-16T11:30:00Z",
+    "duration": 45,
+    "type": "follow-up",
+    "status": "scheduled",
+    "videoRoomUrl": "https://mediconnect.com/room/5"
+  },
+  {
+    "Id": 6,
+    "patientId": 3,
+    "providerId": "dr-sarah-johnson",
+    "scheduledTime": "2024-03-14T15:00:00Z",
+    "duration": 30,
+    "type": "consultation",
+    "status": "completed",
+    "videoRoomUrl": "https://mediconnect.com/room/6"
+  },
+  {
+    "Id": 7,
+    "patientId": 5,
+    "providerId": "dr-sarah-johnson",
+    "scheduledTime": "2024-03-13T13:00:00Z",
+    "duration": 60,
+    "type": "emergency",
+    "status": "completed",
+    "videoRoomUrl": "https://mediconnect.com/room/7"
+  },
+  {
+    "Id": 8,
+    "patientId": 2,
+    "providerId": "dr-sarah-johnson",
+    "scheduledTime": "2024-03-12T10:30:00Z",
+    "duration": 45,
+    "type": "follow-up",
+    "status": "completed",
+    "videoRoomUrl": "https://mediconnect.com/room/8"
+  },
+  {
+    "Id": 9,
+    "patientId": 1,
+    "providerId": "dr-sarah-johnson",
+    "scheduledTime": "2024-03-11T16:45:00Z",
+    "duration": 30,
+    "type": "consultation",
+    "status": "cancelled",
+    "videoRoomUrl": "https://mediconnect.com/room/9"
+  },
+  {
+    "Id": 10,
+    "patientId": 4,
+    "providerId": "dr-sarah-johnson",
+    "scheduledTime": "2024-03-18T08:00:00Z",
+    "duration": 30,
+    "type": "consultation",
+    "status": "scheduled",
+    "videoRoomUrl": "https://mediconnect.com/room/10"
+  }
+]

@@ -1,0 +1,155 @@
+[
+  {
+    "Id": 1,
+    "name": "John Smith",
+    "dateOfBirth": "1985-03-15",
+    "insurance": {
+      "provider": "Blue Cross Blue Shield",
+      "policyNumber": "BC123456789",
+      "groupNumber": "GRP001",
+      "verified": true,
+      "coverageDetails": {
+        "deductible": 1000,
+        "copay": 25,
+        "outOfPocketMax": 5000
+      }
+    },
+    "medicalHistory": [
+      {
+        "Id": 1,
+        "date": "2024-01-15",
+        "type": "Annual Physical",
+        "notes": "Patient in good health. Blood pressure slightly elevated.",
+        "prescriptions": [],
+        "attachments": []
+      },
+      {
+        "Id": 2,
+        "date": "2024-02-20",
+        "type": "Follow-up",
+        "notes": "Blood pressure improved with medication.",
+        "prescriptions": [],
+        "attachments": []
+      }
+    ],
+    "upcomingAppointments": [1, 2]
+  },
+  {
+    "Id": 2,
+    "name": "Sarah Johnson",
+    "dateOfBirth": "1990-07-22",
+    "insurance": {
+      "provider": "Aetna",
+      "policyNumber": "AET987654321",
+      "groupNumber": "GRP002",
+      "verified": true,
+      "coverageDetails": {
+        "deductible": 1500,
+        "copay": 30,
+        "outOfPocketMax": 6000
+      }
+    },
+    "medicalHistory": [
+      {
+        "Id": 3,
+        "date": "2024-01-10",
+        "type": "Consultation",
+        "notes": "Patient complains of headaches. Referred for imaging.",
+        "prescriptions": [],
+        "attachments": []
+      }
+    ],
+    "upcomingAppointments": [3]
+  },
+  {
+    "Id": 3,
+    "name": "Michael Davis",
+    "dateOfBirth": "1978-11-08",
+    "insurance": {
+      "provider": "United Healthcare",
+      "policyNumber": "UH456789123",
+      "groupNumber": "GRP003",
+      "verified": false,
+      "coverageDetails": {}
+    },
+    "medicalHistory": [
+      {
+        "Id": 4,
+        "date": "2024-02-01",
+        "type": "Emergency Visit",
+        "notes": "Patient presented with chest pain. EKG normal.",
+        "prescriptions": [],
+        "attachments": []
+      }
+    ],
+    "upcomingAppointments": []
+  },
+  {
+    "Id": 4,
+    "name": "Emily Wilson",
+    "dateOfBirth": "1992-05-14",
+    "insurance": {
+      "provider": "Cigna",
+      "policyNumber": "CIG789123456",
+      "groupNumber": "GRP004",
+      "verified": true,
+      "coverageDetails": {
+        "deductible": 2000,
+        "copay": 20,
+        "outOfPocketMax": 7000
+      }
+    },
+    "medicalHistory": [
+      {
+        "Id": 5,
+        "date": "2024-01-25",
+        "type": "Routine Check-up",
+        "notes": "Patient in excellent health. All vitals normal.",
+        "prescriptions": [],
+        "attachments": []
+      }
+    ],
+    "upcomingAppointments": [4]
+  },
+  {
+    "Id": 5,
+    "name": "Robert Anderson",
+    "dateOfBirth": "1965-09-30",
+    "insurance": {
+      "provider": "Medicare",
+      "policyNumber": "MED123456789",
+      "groupNumber": "MEDICARE",
+      "verified": true,
+      "coverageDetails": {
+        "deductible": 500,
+        "copay": 15,
+        "outOfPocketMax": 3000
+      }
+    },
+    "medicalHistory": [
+      {
+        "Id": 6,
+        "date": "2024-02-10",
+        "type": "Cardiology Consultation",
+        "notes": "Patient has history of heart disease. Monitoring required.",
+        "prescriptions": [],
+        "attachments": []
+      }
+    ],
+    "upcomingAppointments": []
+  },
+  {
+    "Id": 6,
+    "name": "Lisa Thompson",
+    "dateOfBirth": "1988-12-03",
+    "insurance": {
+      "provider": "Humana",
+      "policyNumber": "HUM987654321",
+      "groupNumber": "GRP005",
+      "verified": false,
+      "coverageDetails": {}
+    },
+    "medicalHistory": [],
+    "upcomingAppointments": [5]
+  }
+]
