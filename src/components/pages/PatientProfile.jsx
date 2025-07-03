@@ -192,57 +192,35 @@ const PatientProfile = () => {
           </nav>
         </div>
         
-        <div className="p-6">
+<div className="p-6">
           {activeTab === 'overview' && (
             <div className="space-y-6">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-4">Personal Information</h3>
+              <div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-4">Insurance Information</h3>
+                {patient.insurance ? (
                   <div className="space-y-3">
                     <div>
-                      <label className="text-sm font-medium text-gray-500">Full Name</label>
-                      <p className="text-gray-900">{patient.name}</p>
+                      <label className="text-sm font-medium text-gray-500">Provider</label>
+                      <p className="text-gray-900">{patient.insurance.provider}</p>
                     </div>
                     <div>
-                      <label className="text-sm font-medium text-gray-500">Date of Birth</label>
-                      <p className="text-gray-900">{format(new Date(patient.dateOfBirth), 'MMMM dd, yyyy')}</p>
+                      <label className="text-sm font-medium text-gray-500">Policy Number</label>
+                      <p className="text-gray-900">{patient.insurance.policyNumber}</p>
                     </div>
                     <div>
-                      <label className="text-sm font-medium text-gray-500">Age</label>
+                      <label className="text-sm font-medium text-gray-500">Group Number</label>
+                      <p className="text-gray-900">{patient.insurance.groupNumber}</p>
+                    </div>
+                    <div>
+                      <label className="text-sm font-medium text-gray-500">Status</label>
                       <p className="text-gray-900">
-                        {new Date().getFullYear() - new Date(patient.dateOfBirth).getFullYear()} years old
+                        {patient.insurance.verified ? 'Verified' : 'Pending Verification'}
                       </p>
                     </div>
                   </div>
-                </div>
-                
-                <div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-4">Insurance Information</h3>
-                  {patient.insurance ? (
-                    <div className="space-y-3">
-                      <div>
-                        <label className="text-sm font-medium text-gray-500">Provider</label>
-                        <p className="text-gray-900">{patient.insurance.provider}</p>
-                      </div>
-                      <div>
-                        <label className="text-sm font-medium text-gray-500">Policy Number</label>
-                        <p className="text-gray-900">{patient.insurance.policyNumber}</p>
-                      </div>
-                      <div>
-                        <label className="text-sm font-medium text-gray-500">Group Number</label>
-                        <p className="text-gray-900">{patient.insurance.groupNumber}</p>
-                      </div>
-                      <div>
-                        <label className="text-sm font-medium text-gray-500">Status</label>
-                        <p className="text-gray-900">
-                          {patient.insurance.verified ? 'Verified' : 'Pending Verification'}
-                        </p>
-                      </div>
-                    </div>
-                  ) : (
-                    <p className="text-gray-500">No insurance information available</p>
-                  )}
-                </div>
+                ) : (
+                  <p className="text-gray-500">No insurance information available</p>
+                )}
               </div>
             </div>
           )}
